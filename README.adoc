@@ -1,0 +1,34 @@
+= Markov text generator in Dunaj
+
+See http://blog.wagjo.com/markov.html[relevant blog post]
+
+This repository contains following implementations of markov chains:
+
+* markov_one.clj - markov chain of order 1, used to generate graph
+* markov_naive.clj - the tutorial as described in blog post
+* markov.clj - heavily optimized markov chain of order 2, used to generate sentences for the game
+
+This repository contains following public domain books,
+all downoaded from http://www.gutenberg.org/[Project Gutenberg]:
+
+* Alice's Adventures in Wonderland
+* Pride and Prejudice
+* The Adventures of Tom Sawyer
+* Moby-Dick; or, The Whale
+* The King James Version of the Bible
+
+== License
+
+Copyright (C) 2013, 2015, Jozef Wagner. All rights reserved.
+
+Additional copyright for parts of documentation and/or
+underlying implementation:
+Copyright (C) 2008, 2015, Rich Hickey and Clojure contributors.
+
+The use and distribution terms for this software are covered by the
+Eclipse Public License 1.0
+ (http://opensource.org/licenses/eclipse-1.0.php) which can be
+ found in the file epl-v10.html at the root of this distribution.
+By using this software in any fashion, you are agreeing to be bound
+by the terms of this license.
+You must not remove this notice, or any other, from this software.
