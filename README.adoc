@@ -9,7 +9,7 @@ This repository contains following implementations of markov chains:
 * markov.clj - heavily optimized markov chain of order 2, used to generate sentences for the game
 
 This repository contains following public domain books,
-all downoaded from http://www.gutenberg.org/[Project Gutenberg]:
+all downloaded from http://www.gutenberg.org/[Project Gutenberg]:
 
 * Alice's Adventures in Wonderland
 * Pride and Prejudice
