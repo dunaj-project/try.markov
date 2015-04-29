@@ -236,6 +236,12 @@
              ]
          (markov-chain (concat a m p t))))))
 
+  (time
+   (def mc
+     (with-scope
+       (let [b (slurp (classpath "try/document/moby_dick.txt"))]
+         (markov-chain b)))))
+
   (count mc)
 
   (seq (take 10 (keys mc)))

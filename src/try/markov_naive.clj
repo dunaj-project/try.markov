@@ -203,13 +203,14 @@
       :x-label ""
       :y-label "")
      "markov-bar.png"))
-  
-  (def mc
-    (->> (slurp (classpath "try/document/moby_dick.txt"))
-         (tokenizer-engine word-tokenizer)
-         seq
-         markov-chain
-         with-scope))
+
+  (time
+   (def mc
+     (->> (slurp (classpath "try/document/moby_dick.txt"))
+          (tokenizer-engine word-tokenizer)
+          seq
+          markov-chain
+          with-scope)))
   
   (random-sentence mc)
 

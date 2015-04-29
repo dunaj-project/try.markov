@@ -1,6 +1,6 @@
 = Markov text generator in Dunaj
 
-See http://blog.wagjo.com/markov.html[relevant blog post]
+See http://blog.wagjo.com/markov.html[related blog post]
 
 This repository contains following implementations of markov chains:
 
@@ -19,7 +19,7 @@ all downloaded from http://www.gutenberg.org/[Project Gutenberg]:
 
 == License
 
-Copyright (C) 2013, 2015, Jozef Wagner. All rights reserved.
+Copyright (C) 2015, Jozef Wagner. All rights reserved.
 
 Additional copyright for parts of documentation and/or
 underlying implementation:
